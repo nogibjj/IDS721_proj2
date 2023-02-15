@@ -1,25 +1,17 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
+## Flask microservice for looking up zipcode
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+# Introduction
+This is a course project which is a simple microservice for looking up detail information of a zipcode based on Flask. This project image will be pushed to DockerHub, or Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
 
-Things included are:
+# Usage
+For local testing, just use ```python3 app.py``` to start the service. 
+Then user can go to ```localhost:5000``` to check the result.
 
-* `Makefile`
+# Project plan
+Week1: Finish the project planning, and finish the basic fucntion of the project.
 
-* `Pytest`
+Week2: Add an interactive page for this application and add more features. And finish the dockerfile and other containerized steps. 
 
-* `pandas`
+Week3: Finish the automatically deployment to Kubernetes cluster.
 
-* `Pylint`
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions` 
-
+# Screemshots
