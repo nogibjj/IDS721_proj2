@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 import requests
 
 app = Flask(__name__)
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 
 @app.route('/<zipcode>')
 def get_city_state(zipcode):
@@ -19,3 +20,4 @@ def get_city_state(zipcode):
 
 if __name__ == '__main__':
     app.run()
+
