@@ -5,6 +5,10 @@ install:
 test:
 	python -m pytest -vv --cov=main --cov=mylib test_*.py
 
+dockerbuild:
+	docker build -t proj2 .
+
+
 format:	
 	black *.py 
 
